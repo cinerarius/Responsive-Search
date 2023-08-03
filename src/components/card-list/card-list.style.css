@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 @layer components {
-  .monster-text {
-    @apply font-sans font-bold text-lg text-center;
+  .content {
+    @apply flex items-center justify-center;
+  }
+  .card-list {
+    @apply grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-10;
   }
 }

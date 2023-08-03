@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card-container {
+    @apply bg-cyan-300 rounded-xl h-80 w-60 p-2 hover:scale-110 duration-200;
+  }
+  .monster-text {
+    @apply font-sans font-bold text-lg text-center;
+  }
+  .email-text {
+    @apply font-sans font-semibold text-lg text-center;
+  }
+}
