@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 @layer base {
-  h1 {
-    @apply font-bold text-3xl;
+  div {
+    @apply justify-center items-center;
+  }
+  body {
+    @apply bg-zinc-800;
   }
 }

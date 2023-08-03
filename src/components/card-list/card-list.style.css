@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .monster-text {
+    @apply font-sans font-bold text-lg text-center;
+  }
+}
